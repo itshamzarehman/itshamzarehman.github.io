@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hamza Rehman</title>
+    <link rel="icon" href="images/favi.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ////////////////////////////////////////////////////////////////////////////////////////
+                              SECTION 1 - THE NAVBAR SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////-->
+<nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">
+        <img src="images/test.png" alt="logo image" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="/index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="rounded-pill btn-rounded" onclick="window.open('https:\\wa.me/923095752656', '_blank')">
+          +92 309 5752656
+          <span>
+            <i class="fas fa-phone-alt"></i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                            SECTION 2 - THE INTRO SECTION  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- START THE CONTENT FOR THE INTRO  -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">
+          Hey!
+          <span id="typed-output"></span> <!-- Text will be typed here -->
+          <span class="display-2--description lh-base">
+            A Biomedical Engineer with a passion for embedded systems, electronics, IOT, Robotics and AI/ML. 
+            I specialize in integrating biomedical sciences with advanced technology to develop innovative solutions.
+          </span>
+        </h1>
+        <div class="nav-item">
+          <a href="#contact", style="text-decoration: none;">
+            <button type="button" class="rounded-pill btn-rounded">
+              Get in Touch
+              <span><i class="fas fa-arrow-right"></i></span>
+            </button>
+          </a>
+        </div>
+      </div>
+      <!-- START THE CONTENT FOR THE VIDEO -->
+      <div class="col-md-6 intros text-end">
+        <div class="video-box">
+          <img src="images/arts/intro-section-illustration.png" alt="video illutration" class="img-fluid">
+          <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+            <span>
+              <i class="fas fa-play-circle"></i>
+            </span>
+            <span class="border-animation border-animation--border-1"></span>
+            <span class="border-animation border-animation--border-2"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             SECTION 3 - THE CAMPANIES SECTION  
+////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+  <!-- <section id="campanies" class="campanies">
+    <div class="container">
+      <div class="row text-center">
+        <h4 class="fw-bold lead mb-3">Trusted by campanies like</h4>
+        <div class="heading-line mb-5"></div>
+      </div>
+    </div> -->
+    <!-- START THE CAMPANIES CONTENT  -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-2">
+          <div class="campanies__logo-box shadow-sm">
+            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                          SECTION 4 - THE SERVICES  
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="services" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <a class="navbar-brand">
+        <h1 class="display-3 fw-bold">Services I Provide</h1>
+      </a>
+      <div class="heading-line mb-1"></div>
+    </div>
+</section>
+  <!-- START THE DESCRIPTION CONTENT  -->
+    <div class="row pt-2 pb-2 mt-0 mb-3">
+      <div class="col-md-6 border-right">
+        <div class="bg-white p-3">
+          <h2 class="fw-bold text-capitalize text-center">
+            Offering End-to-End Solutions: From Initial Prototyping to Final Product.
+          </h2>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="bg-white p-4 text-start">
+          <p class="fw-light">
+            I provide comprehensive services across the entire development lifecycle, 
+            specializing in the cutting-edge fields of IoT, embedded systems, AI/ML, robotics, 
+            and electronics. My expertise extends from the initial stages of concept development 
+            and prototyping through to the final product delivery, ensuring that every aspect of your 
+            project is expertly managed and executed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE CONTENT FOR THE SERVICES  -->
+  <div class="container">
+    <!-- START THE IOT CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-cloud-meatball"></div>
+          <h3 class="display-3--title mt-1">IoT Solutions</h3>
+          <p class="lh-lg">
+            I design and implement Internet of Things (IoT) systems that connect and integrate various devices to create seamless, 
+            intelligent networks. From smart sensors to data communication and analytics, I deliver tailored IoT solutions that drive efficiency and innovation.
+          </p>
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button> -->
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/IOT-solution-animate.svg" alt="marketing illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- START THE Embedded System CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="images/services/embedded_system.jpg" alt="web development illustration" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Embedded Systems</h3>
+          <p class="lh-lg">
+            I excel in developing robust embedded systems that power a wide range of applications. 
+            Whether it’s designing custom hardware or programming embedded software, I ensure that your devices 
+            are reliable, efficient, and optimized for performance.
+          </p>
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button> -->
+        </div>
+      </div>
+    </div>
+    <!-- START THE AI/ML Integration CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-brain"></div>
+          <h3 class="display-3--title mt-1">AI/ML Integration</h3>
+          <p class="lh-lg">
+            Leveraging the power of Artificial Intelligence (AI) and Machine Learning (ML), I build intelligent systems that learn and adapt. 
+            My solutions include predictive analytics, automated decision-making, and advanced data processing, designed to enhance your product’s 
+            capabilities and user experience.
+          </p>
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button> -->
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/Artificial-intelligence-Illustration.jpg" alt="cloud hosting illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+    <!-- START THE Robotic Engineering CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+        <div class="services__pic">
+          <img src="images/services/robotics-engineering.jpg" alt="web development illustration" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-robot"></div>
+          <h3 class="display-3--title mt-1">Robotics Engineering</h3>
+          <p class="lh-lg">
+            I create advanced robotic systems that combine mechanical engineering with cutting-edge control systems. 
+            From autonomous robots to industrial automation, my robotics solutions are engineered to meet your 
+            specific needs and drive technological advancement.
+          </p>
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button> -->
+        </div>
+      </div>
+    </div>
+    <!-- START THE Electronics Development CONTENT  -->
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+        <div class="services__content">
+          <div class="icon d-block fas fa-compact-disc"></div>
+          <h3 class="display-3--title mt-1">Electronics Development</h3>
+          <p class="lh-lg">
+            My electronics expertise spans the design and development of electronic circuits, devices, 
+            and systems. I provide end-to-end services from schematic design and PCB layout to prototyping 
+            and testing, ensuring that your electronic products are of the highest quality and reliability.
+          </p>
+          <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <span><i class="fas fa-arrow-right"></i></span>
+          </button> -->
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+        <div class="services__pic">
+          <img src="images/services/electronics.jpg" alt="cloud hosting illustration" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
+                             SECTION 5 - THE PORTFOLIO  
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
+      <div class="heading-line"></div>
+      <p class="lead">
+        Explore our most recent projects successfully delivered to our clients!
+      </p>
+    </div>
+    
+    <!-- START THE PORTFOLIO ITEMS  -->
+    <div class="portfolio-container">
+      <!-- Project 1 -->
+      <div class="portfolio-item">
+        <div class="portfolio-box">
+          <img src="images/portfolio/Resort-Automation-System.jpeg" alt="Resort Automation System Using BLE-Mesh Network">
+        </div>
+        <div class="portfolio-info">
+          <h4>Resort Automation System Using BLE-Mesh Network</h4>
+          <p>Category: TODO</p>
+          <p>This project aims to provide an automated solution for resort 
+            owners by using a BLE-Mesh network. The system allows guests to control lights and fans, 
+            with the added feature of fan speed adjustment, directly from their rooms. 
+            Additionally, it offers convenience by enabling guests to request room services such as 
+            laundry or sweeping. Resort management can seamlessly control the network, adding devices 
+            and rooms via a dedicated mobile app. The system includes a sensor device to monitor real-time 
+            environmental conditions, such as temperature, humidity, and smoke levels within the room, as well 
+            as displaying weather updates for the resort's city. This comprehensive solution enhances the resort 
+            experience for both guests and management.</p>
+        </div>
+      </div>
+    
+      <!-- Project 2 -->
+      <div class="portfolio-item">
+        <div class="portfolio-box">
+          <img src="images/portfolio/Home-Automation-Vision-Five-based.jpeg" alt="Home Automation System Using MQTT and Socket Protocols">
+        </div>
+        <div class="portfolio-info">
+          <h4>Home Automation System Using MQTT and Socket Protocols</h4>
+          <p>Category: TODO</p>
+          <p>This home automation system prototype was developed to deliver an efficient solution for automating home appliances, 
+            leveraging MQTT and socket protocols for communication. Key features included real-time control 
+            of appliances and real-time temperature monitoring, all managed through a user-friendly web application. 
+            Built on a RISC architecture-based single-board computer (SBC), the system ensured low-latency 
+            communication, enabling seamless, real-time control for users. The result was a responsive and 
+            intuitive system designed to enhance the convenience of modern home automation.</p>
+        </div>
+      </div>
+    
+      <!-- Project 3 -->
+      <div class="portfolio-item">
+        <div class="portfolio-box">
+          <img src="images/portfolio/Smart-Car-sent.jpeg" alt="SMART CAR With RISC V SBC">
+        </div>
+        <div class="portfolio-info">
+          <h4>SMART CAR With RISC V SBC</h4>
+          <p>Category: TODO</p>
+          <p>This project features a custom-designed PCB equipped with a dedicated 
+            microcontroller, motor driver, and headers for attaching servo motors and multiple 
+            sensors. At its core, the system is powered by a RISC-V based single-board computer 
+            (SBC) running Python scripts. It includes advanced functionalities like obstacle avoidance
+             and environmental exploration, making it an autonomous solution. Additionally, the system 
+             can be remotely controlled through an integrated app from anywhere in the world, offering 
+             both automation and user interaction for enhanced flexibility and performance.</p>
+        </div>
+      </div>
+      <!-- Project 4 -->
+      <div class="portfolio-item">
+        <div class="portfolio-box">
+          <img src="images/portfolio/Smart-Luggage-System.jpg" alt="Smart Luggage System">
+        </div>
+        <div class="portfolio-info">
+          <h4>Smart Luggage System</h4>
+          <p>Category: TODO</p>
+          <p>The Smart Luggage prototype was developed as an innovative solution for 
+            modern travel needs, incorporating advanced features to enhance security and convenience. 
+            It offered real-time luggage tracking with scheduled updates, a fingerprint lock system 
+            supporting multiple users, and individual control for added safety. The luggage also 
+            featured an integrated weight scale to measure its contents and provide weight limit 
+            suggestions. Automatic lock control further streamlined the experience, while a dedicated 
+            mobile app allowed users to lock or unlock the luggage, track its location, and monitor 
+            its weight—all from the convenience of their smartphone. This prototype merged smart 
+            technology with industrial design for a future-forward travel solution.</p>
+        </div>
+      </div>
+      <!-- Project 5 -->
+      <div class="portfolio-item">
+        <div class="portfolio-box">
+          <img src="images/portfolio/Smart-Alarm-Clock.jpeg" alt="Smart Alarm Clock with E-Ink Display">
+        </div>
+        <div class="portfolio-info">
+          <h4>Smart Alarm Clock with E-Ink Display</h4>
+          <p>Category: TODO</p>
+          <p>The Smart Alarm Clock prototype offers a modern solution for consumers seeking a display 
+            that’s easy on the eyes, featuring an E-Ink display that mimics paper without the harsh 
+            glare of traditional screens. Key functions include time, date, and alarm settings, with the 
+            ability to play custom MP3 alarm tones. The clock integrates seamlessly into a smart home 
+            network via MQTT protocol, allowing users to control it with voice assistants. Additionally, 
+            a web-based GUI enables remote customization of settings. The alarm clock also integrates with 
+            Philips Hue products, enabling users to create scene-based modes for a more personalized 
+            wake-up experience. This prototype combines smart home convenience with eye-friendly display 
+            technology.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ////////////////////////////////////////////////////////////////////////////////////////////////
+                               SECTION 6 - THE TESTIMONIALS  
+/////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="testimonials" class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center text-white">
+      <h1 class="display-3 fw-bold">Testimonials</h1>
+      <hr style="width: 100px; height: 3px; " class="mx-auto">
+      <p class="lead pt-1">what our clients are saying</p>
+    </div>
+
+    <!-- START THE CAROUSEL CONTENT  -->
+    <div class="row align-items-center">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- CAROUSEL ITEM 1 -->
+          <div class="carousel-item active">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Patrick Muriungi</h3>
+              <p class="fw-light">CEO & founder</p>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 2 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Joy Marete</h3>
+              <p class="fw-light">Finance Manager</p>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 3 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>ClaireBelle Zawadi</h3>
+              <p class="fw-light">Global brand manager</p>
+            </div>
+          </div>     
+          <!-- CAROUSEL ITEM 4 -->
+          <div class="carousel-item">
+            <!-- testimonials card  -->
+            <div class="testimonials__card">
+              <p class="lh-lg">
+                <i class="fas fa-quote-left"></i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </p>
+            </div>
+            <!-- client picture  -->
+            <div class="testimonials__picture">
+              <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+            </div>
+            <!-- client name & role  -->
+            <div class="testimonials__name">
+              <h3>Uhuru Kenyatta</h3>
+              <p class="fw-light">C.E.O & Founder</p>
+            </div>
+          </div>     
+        </div>
+        <div class="text-center">
+          <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        </button>
+        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////
+                       SECTION 7 - THE FAQ 
+//////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="faq" class="faq">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+      <div class="heading-line"></div>
+      <p class="lead">frequently asked questions, get knowledge befere hand</p>
+    </div>
+    <!-- ACCORDION CONTENT  -->
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="accordion" id="accordionExample">
+          <!-- ACCORDION ITEM 1 -->
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What does your end-to-end service include?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Our end-to-end service covers the entire development lifecycle,</strong> from concept development and prototyping to design, development, testing, and final product delivery. We ensure each stage is expertly managed to bring your project from an initial idea to a fully functional product.
+              </div>
+            </div>
+          </div>
+             <!-- ACCORDION ITEM 2 -->
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is involved in the prototyping phase?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>During the prototyping phase,</strong> we create functional prototypes to test and validate the design. This includes developing hardware and software components, integrating them, and iterating based on testing results. Our goal is to identify and address potential issues early on to refine the final product.
+              </div>
+            </div>
+          </div>
+             <!-- ACCORDION ITEM 3 -->
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Do you offer consultations with clients?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Yes, we offer consultations with clients as part of our services.</strong> This allows us to better understand your project requirements, goals, and vision. We use these consultations to develop a tailored approach and provide you with a detailed proposal and project plan.
+              </div>
+            </div>
+          </div>
+             <!-- ACCORDION ITEM 4 -->
+          <div class="accordion-item shadow mb-3">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Do you sign Non-Disclosure Agreements (NDAs)?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Yes, we are happy to sign Non-Disclosure Agreements (NDAs)</strong> to ensure the confidentiality of your project information. We understand the importance of protecting your intellectual property and sensitive data, and we are committed to maintaining the highest level of confidentiality throughout our collaboration.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
+              SECTION 8 - GET STARTED  
+/////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<section id="contact" class="get-started">
+  <div class="container">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold text-capitalize">Begin your journey!</h1>
+      <div class="heading-line"></div>
+      <p class="lh-lg">
+        Unlock the full potential of your project with cutting-edge expertise and guaranteed satisfaction!
+      </p>
+    </div>
+
+    <!-- START THE CTA CONTENT  -->
+    <div class="row text-white">
+      <div class="col-12 col-lg-6 gradient shadow p-3">
+        <div class="cta-info w-100">
+          <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+          <p class="lh-lg">
+            I provide comprehensive services across the full development lifecycle, specializing in IoT, 
+            embedded systems, AI/ML, robotics, and electronics. From concept to final delivery, 
+            I ensure every stage of your project is expertly managed with precision and care.
+          </p>
+          <h3 class="display-3--brief">What will be the next step?</h3>
+          <ul class="cta-info__list">
+            <li>We’ll prepare a detailed proposal.</li>
+            <li>We’ll discuss it together to align with your needs.</li>
+            <li>Let’s start the conversation and bring your vision to life!</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 bg-white shadow p-3">
+        <div class="form w-100 pb-2">
+          <h4 class="display-3--title mb-5">Ready to bring your project to life? Get in touch today!</h4>
+          <form action="https://formspree.io/f/mnnaroko" class="row" method="post">
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" name="first_name" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-6 col-md mb-3">
+              <input type="text" name="last_name" placeholder="Last Name" id="inputLastName" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <input type="email" name="email" placeholder="email address" id="inputEmail" class="shadow form-control form-control-lg">
+            </div>
+            <div class="col-lg-12 mb-3">
+              <textarea type="message" name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
+            </div>
+            <div class="text-center d-grid mt-1">
+              <button type="submit" class="btn btn-primary rounded-pill pt-3 pb-3">
+                submit
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////
+                            SECTION 9 - THE FOOTER  
+///////////////////////////////////////////////////////////////////////////////////////////////-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- CONTENT FOR THE MOBILE NUMBER  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+            <path d="M15 7a2 2 0 0 1 2 2" />
+            <path d="M15 3a6 6 0 0 1 6 6" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="https:\\wa.me/923095752656" class="contact-box__info--title" target="_blank">+92 309 5752656</a>
+          <p class="contact-box__info--subtitle">Don't hesitate to reach out to us!</p>
+        </div>
+      </div>  
+  
+      <!-- CONTENT FOR EMAIL  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <polyline points="3 9 12 15 21 9 12 3 3 9" />
+            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+            <line x1="3" y1="19" x2="9" y2="13" />
+            <line x1="15" y1="13" x2="21" y2="19" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="mailto:awanhamza1456@gmail.com" class="contact-box__info--title">awanhamza1456@gmail.com</a>
+          <p class="contact-box__info--subtitle">Email Address</p>
+        </div>
+      </div>
+      <!-- CONTENT FOR LOCATION  -->
+      <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+        <div class="contact-box__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="18" y1="6" x2="18" y2="6.01" />
+            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+            <line x1="9" y1="4" x2="9" y2="17" />
+            <line x1="15" y1="15" x2="15" y2="20" />
+          </svg>
+        </div>
+        <div class="contact-box__info">
+          <a href="#" class="contact-box__info--title">Multan, Pakistan</a>
+          <p class="contact-box__info--subtitle">Wapda Town</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE SOCIAL MEDIA CONTENT  -->
+  <div class="footer-sm" style="background-color: #212121;">
+    <div class="container">
+      <div class="row py-4 text-center text-white">
+        <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+          Connect with me on social media
+        </div>
+        <div class="col-lg-7 col-md-6">
+          <a href=""><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/hamza-rehman-awan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- START THE CONTENT FOR THE CAMPANY INFO -->
+  <div class="container mt-5">
+    <div class="row text-white justify-content-center mt-3 pb-3">
+      <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+        <h5 class="text-capitalize fw-bold">Hamza Rehman</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <p class="lh-lg">
+          Biomedical Engineering student with a passion for embedded systems, electronics, IOT and robotics. 
+          I specialize in integrating biomedical sciences with advanced technology to develop innovative solutions.
+        </p>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <h5 class="text-capitalize fw-bold">Products</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <ul class="list-inline campany-list">
+          <li><a href="#service">IoT Solutions</a></li>
+          <li><a href="#service">Embedded System</a></li>
+          <li><a href="#service">AI/ML Integration</a></li>
+          <li><a href="#service">Robotics Engineering</a></li>
+          <li><a href="#service">Electronics Development</a></li>
+        </ul>
+      </div>
+      <!-- <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <h5 class="text-capitalize fw-bold">useful links</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <ul class="list-inline campany-list">
+          <li><a href="#"> Your Account</a></li>
+          <li><a href="#">Become an Affiliate</a></li>
+          <li><a href="#">create an account</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+        <h5 class="text-capitalize fw-bold">contact</h5>
+        <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+        <ul class="list-inline campany-list">
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- START THE COPYRIGHT INFO  -->
+  <div class="footer-bottom pt-5 pb-5">
+    <div class="container">
+      <div class="row text-center text-white">
+        <div class="col-12">
+          <div class="footer-bottom__copyright">
+            &COPY; Copyright 2021 <a href="#">Hamza Rehman</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP BUTTON  -->
+<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+  <i class="fas fa-chevron-up"></i>
+</a>
+
+
+
+   
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        'touchNavigation': true,
+        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'type': 'video',
+        'source': 'youtube', //vimeo, youtube or local
+        'width': 900,
+        'autoPlayVideos': 'true',
+});
+    
+    </script>
+     <script src="assets/js/bootstrap.bundle.min.js"></script>
+     <script>
+      const text = "I'm Hamza";  // The text to be typed
+      let index = 0;
+      let isDeleting = false;
+    
+      function typeText() {
+        const outputElement = document.getElementById("typed-output");
+        
+        if (!isDeleting && index < text.length) {
+          // Typing the text
+          outputElement.innerHTML += text.charAt(index);
+          index++;
+          setTimeout(typeText, 100);  // Typing speed
+        } else if (isDeleting && index > 0) {
+          // Deleting the text
+          outputElement.innerHTML = text.substring(0, index - 1);
+          index--;
+          setTimeout(typeText, 50);  // Deleting speed
+        } else {
+          // Start typing again after text is fully erased
+          isDeleting = !isDeleting;
+          setTimeout(typeText, isDeleting ? 1000 : 500);  // Delay before restarting
+        }
+      }
+    
+      // Start typing when the page loads
+      window.onload = typeText;
+    </script>
+</body>
+</html>
